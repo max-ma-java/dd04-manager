@@ -1,0 +1,11 @@
+/**
+* 定义全局混入样式
+* 命名规则: mix-混入样式
+* 混入语法可参照官网或菜鸟教程https://www.runoob.com/sass/sass-mixin-include.html
+*/
+// 居中flex布局,默认水平/垂直居中
+@mixin mix-flex($justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
